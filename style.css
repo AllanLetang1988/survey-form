@@ -1,0 +1,88 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+#main{
+    background-image: url("https://blog.interdominios.com/wp-content/2008/responsive-web-design.jpg");
+    height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  body {
+    font-size: 1rem;
+    background-color: rgb(202, 211, 218);
+    margin: 0 10% 2% 10%;
+    line-height: 1.6;
+  }
+ 
+  #name {
+    border: 3px solid skyblue;
+    border-radius: 0.5em;
+  }
+
+  #email {
+    border: 3px solid skyblue;
+     border-radius: 0.5em;
+  }
+
+  #number {
+     border: 3px solid skyblue;
+     border-radius: 0.5em;
+  }
+
+  #dropdown {
+     border: 3px solid skyblue;
+     border-radius: 0.5em;
+  }
+
+  #comment {
+     border: 3px solid skyblue;
+     border-radius: 0.5em;
+  }
+
+  #submit {
+     border: 3px solid skyblue;
+     border-radius: 0.5em;
+  }
+
+
+  #title,  
+  #description {
+    text-align: center;
+    margin: 5px;
+    color: rgb(0, 0, 0)
+  }
+  
+  /*.section {
+    padding: 5em 2em;
+  }*/
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 20%;
+}
+.section__form,
+#whole-body {
+  background-color: rgba(30, 60, 70, 0.8);
+}
+
+  #submit {
+    margin: auto 35%;
+}
+
+label, 
+option,
+legend,
+#title,
+#description {
+  color: azure;
+}

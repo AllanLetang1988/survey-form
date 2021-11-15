@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+            <title>Survey Form</title>
+          </head>    
+       
+            <body id="main">
+       
+     <div id="whole-body">
+        <h1 id="title">Freelance Survey Form</h1>
+        <p id="description"><b>Responsive Web Designer In 3 Different Languages. 
+          I Am Here To Make Your Web Page Responsive In French-Spanish-English.</div>
+        <section class="section__form">
+          <form class="form"><br>
+          <label id="name-label" for=""><b>Name</b></label><input id="name" type="text" placeholder="your name here" required><br>
+          <label id="email-label" for=""><b>Email</b></label><input id="email" type="email" placeholder="your email here" required><br>
+          <label id="number-label" for=""><b>Age (optional)</b></label><input id="number" type="number" min="16" max="70" placeholder="age"><br>
+          <label for="dropdown"><b>Chose the language of your web project</b></label><select id="dropdown" name="">
+            <option value="language" selected></option>          
+          <option value="English">English</option>
+          <option value="Spanish">Spanish</option>
+          <option value="french">French</option>
+          </select><br><br>
+          <label for="service"><b>What service do you need?</b></label>
+          <label for="service"><input id="service" type="radio" value="Web Page Translation" name="project">Web Page Translation</label><label for="service"><input id="service" type="radio" value="Web Page Editing" name="project">Web Page Editing</label>
+          <label for="service"><input id="service" type="radio" value="Complete Web Responsive" name="project">Complete Web Responsive
+          </label><br><br>
+          <legend><b>Select The Programming Languages Needed</b></legend> 
+        <label for="programs"><input id="programs" type="checkbox" value="HTML" name="">HTML</label>
+          <label for="programs"><input id="programs" type="checkbox" value="CSS" name="">CSS</label>
+          <label for="programs"><input id="programs" type="checkbox" value="JAVASCRIPT" name="">JAVASCRIPT</label>
+          <label for="programs"><input id="programs" type="checkbox" value="PYTHON" name="">PYTHON</label><br><br>
+           <label for="comment"><b>Leave Your Comment In This Field</b></label>
+          <textarea name="comment" id="comment" cols="100" rows="10" placeholder="your comment here..."></textarea><br>
+              <button type="submit" id="submit"><b>Submit</b></button>
+            </form>
+          </section>
+         
+       </body>
+
+</html>
