@@ -50,6 +50,8 @@
   #submit {
      border: 3px solid skyblue;
      border-radius: 0.5em;
+     cursor: pointer;
+     transform: scale(1.2);
   }
 
 
